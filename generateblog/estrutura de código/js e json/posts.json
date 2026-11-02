@@ -1,0 +1,412 @@
+[
+    {
+        "id": 1,
+        "category": "dev-analysis",
+        "date": "2026/09/01",
+        "publishTime": "09:00",
+        "url": "blog/ia-generativa-industria-jogos/",
+        "image": "imag/covers/ia-generativa-industria-jogos.svg",
+        "title": {
+            "pt": "IA Generativa na Indústria de Jogos: Hype ou Ferramenta Real?",
+            "en": "Generative AI in the Game Industry: Hype or Real Tool?",
+            "es": "IA Generativa en la Industria de los Videojuegos: ¿Moda o Herramienta Real?"
+        },
+        "excerpt": {
+            "pt": "Metade dos estúdios do mundo já usa IA generativa no dia a dia — mas a maioria dos desenvolvedores acha que ela está prejudicando a indústria. Entendemos essa contradição.",
+            "en": "Half the world's studios already use generative AI daily — yet most developers believe it's harming the industry. We unpack that contradiction.",
+            "es": "La mitad de los estudios del mundo ya usa IA generativa a diario, pero la mayoría de los desarrolladores cree que está perjudicando a la industria."
+        },
+        "tags": {
+            "pt": [
+                "IA generativa",
+                "indústria de jogos",
+                "gamedev",
+                "tecnologia",
+                "GDC 2026"
+            ],
+            "en": [
+                "generative AI",
+                "game industry",
+                "gamedev",
+                "technology",
+                "GDC 2026"
+            ],
+            "es": [
+                "IA generativa",
+                "industria de videojuegos",
+                "gamedev",
+                "tecnología",
+                "GDC 2026"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "category": "dev-analysis",
+        "date": "2026/09/01",
+        "publishTime": "13:30",
+        "url": "blog/orcamentos-aaa-vs-indie/",
+        "image": "imag/covers/orcamentos-aaa-vs-indie.svg",
+        "title": {
+            "pt": "Orçamentos Bilionários vs. Jogos Indie: Dá pra Competir com um GTA 6 no Mercado?",
+            "en": "Billion-Dollar Budgets vs. Indie Games: Can You Compete with a GTA 6?",
+            "es": "Presupuestos Millonarios vs. Videojuegos Indie: ¿Se Puede Competir con un GTA 6?"
+        },
+        "excerpt": {
+            "pt": "Enquanto GTA 6 é estimado em mais de 1 bilhão de dólares de orçamento, a maioria dos jogos indie nasce com menos de 1 milhão. Isso significa que não há espaço pra gente? Os números dizem o contrário.",
+            "en": "GTA 6 is estimated at over $1 billion in budget, while most indie games are born with under $1 million. Does that mean there's no room for us? The numbers say otherwise.",
+            "es": "GTA 6 se estima en más de 1.000 millones de dólares, mientras la mayoría de los indies nacen con menos de 1 millón. ¿No hay espacio para nosotros? Los números dicen lo contrario."
+        },
+        "tags": {
+            "pt": [
+                "GTA 6",
+                "orçamento de jogos",
+                "jogos indie",
+                "mercado de games",
+                "AAA vs indie"
+            ],
+            "en": [
+                "GTA 6",
+                "game budgets",
+                "indie games",
+                "games market",
+                "AAA vs indie"
+            ],
+            "es": [
+                "GTA 6",
+                "presupuesto de videojuegos",
+                "juegos indie",
+                "mercado de videojuegos",
+                "AAA vs indie"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "category": "dev-analysis",
+        "date": "2026/09/01",
+        "publishTime": "18:00",
+        "url": "blog/gta-v-licoes-longevidade/",
+        "image": "imag/covers/gta-v-licoes-longevidade.svg",
+        "title": {
+            "pt": "O Que Fez GTA V Vender Mais de 230 Milhões de Cópias — e o Que Isso Ensina Sobre Longevidade",
+            "en": "What Made GTA V Sell Over 230 Million Copies — and What It Teaches About Longevity",
+            "es": "Qué Hizo que GTA V Vendiera Más de 230 Millones de Copias — y Qué Enseña Sobre Longevidad"
+        },
+        "excerpt": {
+            "pt": "GTA V é de 2013 e ainda vende cerca de 5 milhões de cópias por trimestre. Não é sorte — é uma combinação de decisões que qualquer estúdio, grande ou pequeno, pode estudar.",
+            "en": "GTA V came out in 2013 and still sells around 5 million copies a quarter. It's not luck — it's a combination of decisions any studio, big or small, can study.",
+            "es": "GTA V salió en 2013 y todavía vende cerca de 5 millones de copias por trimestre. No es suerte — es una combinación de decisiones que cualquier estudio puede estudiar."
+        },
+        "tags": {
+            "pt": [
+                "GTA V",
+                "Rockstar Games",
+                "longevidade de jogos",
+                "GTA Online",
+                "lições de gamedev"
+            ],
+            "en": [
+                "GTA V",
+                "Rockstar Games",
+                "game longevity",
+                "GTA Online",
+                "gamedev lessons"
+            ],
+            "es": [
+                "GTA V",
+                "Rockstar Games",
+                "longevidad de videojuegos",
+                "GTA Online",
+                "lecciones de gamedev"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "category": "tutorial",
+        "date": "2026/09/21",
+        "publishTime": "12:00",
+        "url": "blog/jogos-pc-no-celular-gamehub/",
+        "image": "imag/covers/jogos-pc-no-celular-gamehub.svg",
+        "title": {
+            "pt": "Dá pra Ser Gamer Jogando Jogos de PC no Celular? Testamos 4 Níveis de Dificuldade",
+            "en": "Can You Actually Become a Gamer Playing PC Games on Your Phone? We Tested 4 Difficulty Tiers",
+            "es": "¿Se Puede Ser Gamer Jugando Juegos de PC en el Celular? Probamos 4 Niveles de Dificultad"
+        },
+        "excerpt": {
+            "pt": "Já sabemos que dá pra rodar jogos de PC no celular — isso já foi respondido em outros lugares. A pergunta difícil é outra: dá pra ser gamer de verdade com isso, fazendo vídeos, análises e conteúdo?",
+            "en": "We already know PC games can run on a phone — that question's been answered elsewhere. The hard question is different: can you actually become a gamer with this, making videos, reviews and content?",
+            "es": "Ya sabemos que se pueden ejecutar juegos de PC en el celular — esa pregunta ya fue respondida en otros lados. La pregunta difícil es otra: ¿se puede ser gamer de verdad con esto, haciendo videos, reseñas y contenido?"
+        },
+        "tags": {
+            "pt": [
+                "gamer no celular",
+                "emulador GameHub",
+                "criador de conteúdo",
+                "Forager",
+                "Hollow Knight Silksong"
+            ],
+            "en": [
+                "mobile gamer",
+                "GameHub emulator",
+                "content creator",
+                "Forager",
+                "Hollow Knight Silksong"
+            ],
+            "es": [
+                "gamer en celular",
+                "emulador GameHub",
+                "creador de contenido",
+                "Forager",
+                "Hollow Knight Silksong"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "category": "dev-analysis",
+        "date": "2026/09/28",
+        "publishTime": "10:00",
+        "url": "blog/no-mans-sky-historia-de-redencao/",
+        "image": "imag/covers/no-mans-sky-historia-de-redencao.svg",
+        "title": {
+            "pt": "No Man's Sky: A Maior História de Redenção da Indústria de Jogos",
+            "en": "No Man's Sky: The Gaming Industry's Greatest Redemption Story",
+            "es": "No Man's Sky: La Mayor Historia de Redención de la Industria de los Videojuegos"
+        },
+        "excerpt": {
+            "pt": "Em 2016, No Man's Sky foi um dos lançamentos mais criticados da história dos games. Dez anos e mais de 40 atualizações gratuitas depois, virou referência de suporte pós-lançamento.",
+            "en": "In 2016, No Man's Sky was one of the most criticized launches in gaming history. Ten years and over 40 free updates later, it's become the industry's reference point for post-launch support.",
+            "es": "En 2016, No Man's Sky fue uno de los lanzamientos más criticados de la historia de los videojuegos. Diez años y más de 40 actualizaciones gratuitas después, se convirtió en referencia de soporte post-lanzamiento."
+        },
+        "tags": {
+            "pt": [
+                "No Man's Sky",
+                "Hello Games",
+                "redenção nos jogos",
+                "suporte pós-lançamento",
+                "marketing de jogos"
+            ],
+            "en": [
+                "No Man's Sky",
+                "Hello Games",
+                "game redemption",
+                "post-launch support",
+                "game marketing"
+            ],
+            "es": [
+                "No Man's Sky",
+                "Hello Games",
+                "redención en los juegos",
+                "soporte post-lanzamiento",
+                "marketing de videojuegos"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "category": "news",
+        "date": "2026/10/05",
+        "publishTime": "10:00",
+        "url": "blog/speedrun-comunidade-bugs-em-arte/",
+        "image": "imag/covers/speedrun-comunidade-bugs-em-arte.svg",
+        "title": {
+            "pt": "Speedrun: A Comunidade Que Transforma Bugs em Arte Competitiva",
+            "en": "Speedrunning: The Community That Turns Bugs Into Competitive Art",
+            "es": "Speedrun: La Comunidad Que Transforma los Bugs en Arte Competitivo"
+        },
+        "excerpt": {
+            "pt": "Speedrunners já arrecadaram mais de 59 milhões de dólares pra caridade explorando bugs e glitches de propósito. Entenda como essa comunidade funciona e por que devs às vezes até ajudam.",
+            "en": "Speedrunners have raised over $59 million for charity by deliberately exploiting bugs and glitches. Here's how this community works, and why developers sometimes even help.",
+            "es": "Los speedrunners ya recaudaron más de 59 millones de dólares para caridad explotando bugs y glitches a propósito. Entiende cómo funciona esta comunidad y por qué los devs a veces hasta ayudan."
+        },
+        "tags": {
+            "pt": [
+                "speedrun",
+                "Games Done Quick",
+                "glitch",
+                "comunidade gamer",
+                "recorde em jogos"
+            ],
+            "en": [
+                "speedrunning",
+                "Games Done Quick",
+                "glitch",
+                "gaming community",
+                "game records"
+            ],
+            "es": [
+                "speedrun",
+                "Games Done Quick",
+                "glitch",
+                "comunidad gamer",
+                "récords en videojuegos"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "category": "behind-scenes",
+        "date": "2026/10/12",
+        "publishTime": "10:00",
+        "url": "blog/crunch-por-que-continua-acontecendo/",
+        "image": "imag/covers/crunch-por-que-continua-acontecendo.svg",
+        "title": {
+            "pt": "Crunch na Indústria: Por Que Continua Acontecendo Mesmo com Tanta Gente Falando Sobre Isso",
+            "en": "Crunch in the Industry: Why It Keeps Happening Even With So Much Talk About It",
+            "es": "Crunch en la Industria: Por Qué Sigue Pasando a Pesar de Tanto Hablarse del Tema"
+        },
+        "excerpt": {
+            "pt": "Décadas de reportagens, pesquisas e promessas de mudança — e o crunch continua presente na indústria de jogos. Entendemos por que esse problema resiste, com dados reais.",
+            "en": "Decades of reporting, surveys and promises to change — and crunch is still a fixture of the game industry. We break down why this problem sticks around, with real data.",
+            "es": "Décadas de reportajes, encuestas y promesas de cambio — y el crunch sigue presente en la industria de los videojuegos. Analizamos por qué este problema persiste, con datos reales."
+        },
+        "tags": {
+            "pt": [
+                "crunch",
+                "gamedev",
+                "saúde mental",
+                "condições de trabalho",
+                "bastidores"
+            ],
+            "en": [
+                "crunch",
+                "gamedev",
+                "mental health",
+                "working conditions",
+                "behind the scenes"
+            ],
+            "es": [
+                "crunch",
+                "gamedev",
+                "salud mental",
+                "condiciones de trabajo",
+                "detrás de escena"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "category": "news",
+        "date": "2026/10/12",
+        "publishTime": "10:00",
+        "url": "blog/minecraft-the-sift-nova-dimensao/",
+        "image": "imag/covers/minecraft-the-sift-nova-dimensao.svg",
+        "title": {
+            "pt": "Minecraft Anuncia The Sift: a Primeira Dimensão Nova em 15 Anos",
+            "en": "Minecraft Announces The Sift: The First New Dimension in 15 Years",
+            "es": "Minecraft Anuncia The Sift: la Primera Dimensión Nueva en 15 Años"
+        },
+        "excerpt": {
+            "pt": "Mojang revelou The Sift, a quarta dimensão oficial de Minecraft e a primeira desde o End, em 2011. Teorias, o que já sabemos, e o que isso pode significar pro mundo dos jogos.",
+            "en": "Mojang revealed The Sift, Minecraft's fourth official dimension and the first since the End back in 2011. Theories, what we know so far, and what it could mean for the games industry.",
+            "es": "Mojang reveló The Sift, la cuarta dimensión oficial de Minecraft y la primera desde el End, en 2011. Teorías, lo que ya sabemos, y lo que esto puede significar para el mundo de los videojuegos."
+        },
+        "tags": {
+            "pt": [
+                "Minecraft",
+                "The Sift",
+                "Minecraft Live 2026",
+                "Minecraft Dungeons 2",
+                "Mojang"
+            ],
+            "en": [
+                "Minecraft",
+                "The Sift",
+                "Minecraft Live 2026",
+                "Minecraft Dungeons 2",
+                "Mojang"
+            ],
+            "es": [
+                "Minecraft",
+                "The Sift",
+                "Minecraft Live 2026",
+                "Minecraft Dungeons 2",
+                "Mojang"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "category": "news",
+        "date": "2026/10/19",
+        "publishTime": "10:00",
+        "url": "blog/diogo-moraes-171-legado/",
+        "image": "imag/covers/diogo-moraes-171-legado.svg",
+        "title": {
+            "pt": "Diogo Moraes: A Perda do Fundador da Betagames e o Impacto no Desenvolvimento Brasileiro",
+            "en": "Diogo Moraes: The Loss of Betagames' Founder and Its Impact on Brazilian Game Development",
+            "es": "Diogo Moraes: La Pérdida del Fundador de Betagames y el Impacto en el Desarrollo Brasileño"
+        },
+        "excerpt": {
+            "pt": "Diogo Moraes, fundador da Betagames Group e um dos criadores de 171, faleceu em outubro de 2026. Relembramos sua jornada e o que sua perda significa pra comunidade de jogos brasileira.",
+            "en": "Diogo Moraes, founder of Betagames Group and one of the creators of 171, passed away in October 2026. We look back at his journey and what his loss means for Brazil's games community.",
+            "es": "Diogo Moraes, fundador de Betagames Group y uno de los creadores de 171, falleció en octubre de 2026. Recordamos su trayectoria y lo que su pérdida significa para la comunidad de videojuegos brasileña."
+        },
+        "tags": {
+            "pt": [
+                "Diogo Moraes",
+                "171",
+                "Betagames Group",
+                "jogos brasileiros",
+                "desenvolvimento nacional"
+            ],
+            "en": [
+                "Diogo Moraes",
+                "171",
+                "Betagames Group",
+                "Brazilian games",
+                "indie dev"
+            ],
+            "es": [
+                "Diogo Moraes",
+                "171",
+                "Betagames Group",
+                "juegos brasileños",
+                "indie dev"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "category": "devlog",
+        "date": "2026/10/29",
+        "publishTime": "17:00",
+        "url": "blog/nexus-studio-saas-imersao-alura-2026/",
+        "image": "imag/covers/nexus-studio-saas-imersao-alura-2026.svg",
+        "title": {
+            "pt": "Nexus Studio: da ideia ao SaaS na Imersão Alura 2026",
+            "en": "Nexus Studio: From Idea to SaaS at the Alura 2026 Immersion",
+            "es": "Nexus Studio: de la idea al SaaS en la Inmersión Alura 2026"
+        },
+        "excerpt": {
+            "pt": "Dev log do Nexus Studio, meu SaaS experimental de gestão para estúdios de software, criado na Imersão Engenharia de Software da Alura 2026. O que construí, como funciona e o que aprendi.",
+            "en": "Dev log of Nexus Studio, my experimental management SaaS for software studios, built during Alura's 2026 Software Engineering Immersion. What I built, how it works, and what I learned.",
+            "es": "Dev log de Nexus Studio, mi SaaS experimental de gestión para estudios de software, creado en la Inmersión de Ingeniería de Software de Alura 2026. Qué construí, cómo funciona y qué aprendí."
+        },
+        "tags": {
+            "pt": [
+                "Nexus Studio",
+                "dev log",
+                "SaaS",
+                "Imersão Alura",
+                "desenvolvimento com IA"
+            ],
+            "en": [
+                "Nexus Studio",
+                "dev log",
+                "SaaS",
+                "Alura Immersion",
+                "AI-assisted development"
+            ],
+            "es": [
+                "Nexus Studio",
+                "dev log",
+                "SaaS",
+                "Inmersión Alura",
+                "desarrollo con IA"
+            ]
+        }
+    }
+]
