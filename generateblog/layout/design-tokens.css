@@ -1,0 +1,38 @@
+/* Tokens de design do Praimos Studio — fonte única das cores e medidas.
+   Copie para o :root de styles.css e post.css. Nunca "chumbar" hex nas regras. */
+:root {
+    /* Superfícies (do mais escuro ao mais claro) */
+    --bg: #0b0f1e;          /* fundo da página */
+    --bg-alt: #0f172a;      /* fundo alternativo (placeholder de capa) — só na home */
+    --surface: #151b2e;     /* cards, header de código, caixas */
+    --surface-2: #1b2338;   /* linhas internas, botões, toast */
+
+    /* Texto */
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
+
+    /* Marca e acentos */
+    --primary: #6366f1;       /* índigo — ações, links, foco */
+    --primary-light: #818cf8; /* hover, ícones, texto de destaque */
+    --purple: #8b5cf6;        /* segundo tom do degradê de marca */
+    --secondary: #10b981;     /* verde — positivo / real / OK */
+    --accent: #f59e0b;        /* âmbar — destaque, aviso, ponto focal */
+    --danger: #ef4444;        /* vermelho — problema / DEV Análise */
+
+    /* Bordas */
+    --border: rgba(148, 163, 184, 0.12);   /* home (styles.css). Em post.css usa-se 0.14 */
+
+    /* Forma */
+    --radius: 16px;       /* cards, caixas grandes */
+    --radius-sm: 10px;    /* linhas de jogo, itens de contato */
+    --container: 1180px;  /* home. Posts usam 780px */
+}
+
+/* Cores de categoria (devem bater com categoryColors em script.js) */
+:root {
+    --cat-devlog: #6366f1;
+    --cat-news: #10b981;
+    --cat-tutorial: #f59e0b;
+    --cat-behind-scenes: #8b5cf6;
+    --cat-dev-analysis: #ef4444;
+}
