@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+=====================================================================
+ TEMPLATE DE POST — salvar como  blog/{{SLUG}}/index.html
+ Substituir TODOS os {{MARCADORES}}. Nenhum marcador pode sobrar.
+ Caminhos relativos já assumem a profundidade blog/<slug>/ (dois níveis
+ acima da raiz). Nunca mover a pasta do post para fora de blog/.
+ Veja "html/README.md" para a lista completa de marcadores.
+=====================================================================
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE_PT_CURTO}} | Praimos Studio</title>
+<meta name="description" content="{{DESCRIPTION_PT_120_160_CHARS}}">
+<meta name="keywords" content="{{KEYWORDS_PT_EN_ES_SEPARADAS_POR_VIRGULA}}">
+<meta name="author" content="Praimos Studio">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="{{TITLE_PT_CURTO}}">
+<meta property="og:description" content="{{DESCRIPTION_PT_CURTA}}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{SITE_URL}}/blog/{{SLUG}}/">
+<meta property="og:image" content="{{SITE_URL}}/imag/covers/{{SLUG}}.png">
+<meta property="og:image:alt" content="{{ALT_DA_CAPA}}">
+<meta property="og:site_name" content="Praimos Studio">
+<meta property="article:published_time" content="{{AAAA-MM-DD}}T{{HH:MM}}:00-03:00">
+<meta property="article:author" content="Praimos Studio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE_PT_CURTO}}">
+<meta name="twitter:description" content="{{DESCRIPTION_PT_CURTA}}">
+<meta name="twitter:image" content="{{SITE_URL}}/imag/covers/{{SLUG}}.png">
+<link rel="canonical" href="{{SITE_URL}}/blog/{{SLUG}}/">
+<link rel="icon" type="image/png" href="../../imag/blog.png">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{TITLE_PT}}",
+    "description": "{{DESCRIPTION_PT}}",
+    "image": "{{SITE_URL}}/imag/covers/{{SLUG}}.png",
+    "datePublished": "{{AAAA-MM-DD}}T{{HH:MM}}:00-03:00",
+    "dateModified": "{{AAAA-MM-DD}}T{{HH:MM}}:00-03:00",
+    "author": { "@type": "Organization", "name": "Praimos Studio", "url": "{{SITE_URL}}" },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Praimos Studio",
+        "logo": { "@type": "ImageObject", "url": "{{SITE_URL}}/imag/blog.png" }
+    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/blog/{{SLUG}}/" },
+    "inLanguage": "pt-BR"
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../assets/post.css">
+</head>
+<body>
+
+<header class="post-header">
+    <div class="post-header-inner">
+        <a href="../../index.html" class="post-logo-link"><img src="../../imag/blog.png" alt="Praimos Studio" class="post-logo-img"></a>
+        <a href="../../index.html#blog" class="back-link"><i class="fas fa-arrow-left"></i> <span data-lang="pt" class="active">Voltar ao blog</span><span data-lang="en">Back to blog</span><span data-lang="es">Volver al blog</span></a>
+        <div class="lang-switch">
+            <button class="lang-btn" data-setlang="pt">PT</button>
+            <button class="lang-btn" data-setlang="en">EN</button>
+            <button class="lang-btn" data-setlang="es">ES</button>
+        </div>
+    </div>
+</header>
+
+<div class="post-cover"><img src="../../imag/covers/{{SLUG}}.svg" alt="{{ALT_DA_CAPA}}"></div>
+
+<main class="post-main">
+    <div class="container">
+        <div class="post-meta">
+            <!-- Categoria exibida: Dev Log | Notícias | Tutorial | Bastidores | DEV Análise -->
+            <span class="post-category">{{CATEGORIA_EXIBIDA}}</span>
+            <span class="post-date">{{DD/MM/AAAA}}</span>
+        </div>
+
+        <!-- TÍTULO: 3 tags h1, uma por idioma. Só o do idioma ativo aparece (CSS). -->
+        <h1 class="post-title" data-lang="pt">{{TITLE_PT}}</h1>
+        <h1 class="post-title" data-lang="en">{{TITLE_EN}}</h1>
+        <h1 class="post-title" data-lang="es">{{TITLE_ES}}</h1>
+
+        <p class="post-excerpt" data-lang="pt">{{EXCERPT_PT}}</p>
+        <p class="post-excerpt" data-lang="en">{{EXCERPT_EN}}</p>
+        <p class="post-excerpt" data-lang="es">{{EXCERPT_ES}}</p>
+
+        <div class="post-tags" data-lang="pt">
+            <span class="post-tag">#{{TAG1_PT}}</span><span class="post-tag">#{{TAG2_PT}}</span><span class="post-tag">#{{TAG3_PT}}</span><span class="post-tag">#{{TAG4_PT}}</span><span class="post-tag">#{{TAG5_PT}}</span>
+        </div>
+        <div class="post-tags" data-lang="en">
+            <span class="post-tag">#{{TAG1_EN}}</span><span class="post-tag">#{{TAG2_EN}}</span><span class="post-tag">#{{TAG3_EN}}</span><span class="post-tag">#{{TAG4_EN}}</span><span class="post-tag">#{{TAG5_EN}}</span>
+        </div>
+        <div class="post-tags" data-lang="es">
+            <span class="post-tag">#{{TAG1_ES}}</span><span class="post-tag">#{{TAG2_ES}}</span><span class="post-tag">#{{TAG3_ES}}</span><span class="post-tag">#{{TAG4_ES}}</span><span class="post-tag">#{{TAG5_ES}}</span>
+        </div>
+
+        <!-- ================= CORPO PT ================= -->
+        <div class="post-body" data-lang="pt">
+            <p>{{INTRODUCAO_PT}}</p>
+
+            <h2>{{H2_1_PT}}</h2>
+            <p>{{PARAGRAFO_PT}}</p>
+            <ul>
+                <li><strong>{{ITEM_PT}}</strong> {{DETALHE_PT}}</li>
+            </ul>
+
+            <h2>{{H2_CONCLUSAO_PT}}</h2>
+            <p>{{CONCLUSAO_PT}}</p>
+        </div>
+
+        <!-- ================= CORPO EN (tradução CONTEXTUAL, não literal) ================= -->
+        <div class="post-body" data-lang="en">
+            <p>{{INTRODUCAO_EN}}</p>
+            <h2>{{H2_1_EN}}</h2>
+            <p>{{PARAGRAFO_EN}}</p>
+            <h2>{{H2_CONCLUSAO_EN}}</h2>
+            <p>{{CONCLUSAO_EN}}</p>
+        </div>
+
+        <!-- ================= CORPO ES ================= -->
+        <div class="post-body" data-lang="es">
+            <p>{{INTRODUCAO_ES}}</p>
+            <h2>{{H2_1_ES}}</h2>
+            <p>{{PARAGRAFO_ES}}</p>
+            <h2>{{H2_CONCLUSAO_ES}}</h2>
+            <p>{{CONCLUSAO_ES}}</p>
+        </div>
+
+        <!-- Caixa de afiliado OBRIGATÓRIA em todo post. Entra entre o corpo e as fontes.
+             Link = página do PRODUTO (nunca /search) + ?igr=praimos. Catálogo em "txt e md/develop.md". -->
+        <div class="ig-promo">
+            <div data-lang="pt">
+                <div class="ig-promo-title"><i class="fas fa-gamepad"></i> {{TITULO_CAIXA_PT}}</div>
+                <div class="ig-promo-sub">{{SUBTITULO_CAIXA_PT}}</div>
+            </div>
+            <div data-lang="en">
+                <div class="ig-promo-title"><i class="fas fa-gamepad"></i> {{TITULO_CAIXA_EN}}</div>
+                <div class="ig-promo-sub">{{SUBTITULO_CAIXA_EN}}</div>
+            </div>
+            <div data-lang="es">
+                <div class="ig-promo-title"><i class="fas fa-gamepad"></i> {{TITULO_CAIXA_ES}}</div>
+                <div class="ig-promo-sub">{{SUBTITULO_CAIXA_ES}}</div>
+            </div>
+            <div class="ig-games">
+                <a class="ig-game" href="https://www.instant-gaming.com/en/{{ID-SLUG-DO-PRODUTO}}/?igr=praimos" target="_blank" rel="noopener noreferrer sponsored">
+                    <div><div class="ig-game-name">{{NOME_DO_JOGO}}</div><div class="ig-game-note">{{ESTUDIO}}</div></div>
+                    <span class="ig-game-cta">Instant Gaming →</span>
+                </a>
+                <!-- repetir o bloco <a class="ig-game"> para 2–5 jogos -->
+            </div>
+            <p class="ig-disclosure" data-lang="pt">Links de afiliado — comprar por eles ajuda a manter o blog, sem custo extra pra você.</p>
+            <p class="ig-disclosure" data-lang="en">Affiliate links — buying through them supports the blog at no extra cost to you.</p>
+            <p class="ig-disclosure" data-lang="es">Enlaces de afiliado — comprar a través de ellos ayuda a mantener el blog, sin costo extra para ti.</p>
+        </div>
+
+        <div class="post-sources">
+            <h3 data-lang="pt">Fontes</h3>
+            <h3 data-lang="en">Sources</h3>
+            <h3 data-lang="es">Fuentes</h3>
+            <ul>
+                <li><a href="{{URL_DA_FONTE}}" target="_blank" rel="noopener noreferrer">{{VEICULO}} — {{TITULO_DA_MATERIA}}</a></li>
+            </ul>
+            <p class="note" data-lang="pt">{{NOTA_PT: de onde vêm os dados, quando foram coletados, o que é estimativa}}</p>
+            <p class="note" data-lang="en">{{NOTA_EN}}</p>
+            <p class="note" data-lang="es">{{NOTA_ES}}</p>
+        </div>
+    </div>
+</main>
+
+<script>
+window.PAGE_META = {
+    pt: { title: "{{TITLE_PT_CURTO}} | Praimos Studio", description: "{{DESCRIPTION_PT_CURTA}}" },
+    en: { title: "{{TITLE_EN_CURTO}} | Praimos Studio", description: "{{DESCRIPTION_EN_CURTA}}" },
+    es: { title: "{{TITLE_ES_CURTO}} | Praimos Studio", description: "{{DESCRIPTION_ES_CURTA}}" }
+};
+</script>
+<script src="../assets/post.js"></script>
+</body>
+</html>
